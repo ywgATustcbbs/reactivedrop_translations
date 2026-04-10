@@ -63,7 +63,9 @@ asw_alien_jump_min_predicted_distance, 기본값 512
 [h2]IAF는 당신의 도움이 필요합니다![/h2]
 에일리언 스웜: 리액티브 드롭은 앞으로도 무료로 제공되지만, 이를 유지하고 발전시키기 위해서는 많은 재능 있는 자원봉사자들의 노력이 필요합니다. 가능하시다면 [url=https://steamcommunity.com/app/563560/workshop/]스팀 창작마당[/url]에 콘텐츠를 제작해 게시하시거나, 버그를 제보하고 [url=https://github.com/ReactiveDrop/reactivedrop_public_src]code[/url] 개선을 제안해 주시고, [url=https://github.com/ReactiveDrop/reactivedrop_translations]번역 github[/url]에서 귀하의 언어로 번역에 참여하실 수 있습니다. 또한 [url=https://store.steampowered.com/itemstore/563560/]sending a dollar[/url]를 통해 에일리언 스웜: 리액티브 드롭에 기여한 분들을 후원하실 수도 있습니다. IAF는 사령관님의 지속적인 복무에 감사드립니다.
 
-이번 업데이트 주요 기여자 (알파벳 순): AlexZ, allenshamal, Andreas Balzer, anf3is, Ben Lubar, Brancu Alexandru, connman116, Crazymanbos, Deerlord0, Dmitriy, Duke M, ElySimp, Grace Lovelace, Grimowy, hangumi, Ioannis-Marios Tsiakoulias, jhheight, Krevka, MakinDay, mfz, ModdedMarionette, Orange, Steffo, ustcywg, WerFEST</string>
+이번 업데이트 주요 기여자 (알파벳 순): AlexZ, allenshamal, Andreas Balzer, anf3is, Ben Lubar, Brancu Alexandru, connman116, Crazymanbos, Deerlord0, Dmitriy, Duke M, ElySimp, Grace Lovelace, Grimowy, hangumi, Ioannis-Marios Tsiakoulias, jhheight, Krevka, MakinDay, mfz, ModdedMarionette, Orange, Steffo, ustcywg, WerFEST
+
+[img]{STEAM_CLAN_IMAGE}/27357479/7bb994c9794f6d8d4ee3a692c99b5a75edcc7df8.png[/img]</string>
 <string id="subtitle"></string>
 <string id="summary"></string>
 <string id="title">AS:RD 업데이트 - 2026년 4월 20일 "도약"</string>
