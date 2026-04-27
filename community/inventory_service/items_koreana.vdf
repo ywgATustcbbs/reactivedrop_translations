@@ -37,6 +37,9 @@
 // Shown for any number of items in the stack.
 "[english]item_crafting_material_multiple"		"Quantity: %m_unQuantity%"
 "item_crafting_material_multiple"		"소지량: %m_unQuantity%"
+// The stacked medal items can only be 2 or more medals.
+"[english]item_tournament_medal_multiple"		"There are %m_unQuantity% medals in the stack."
+"item_tournament_medal_multiple"		"%m_unQuantity% 개의 훈장을 보유중."
 
 // as in "Style: Orange" for items that have selectable styles
 "[english]item_style_prefix"		"Style"
@@ -66,12 +69,24 @@
 "item_tournament_medal_hoiaf_elite_name"		"정예 - 성간 군사 동맹의 영웅들"
 "[english]item_tournament_medal_hoiaf_top20_name"		"Top 20 - Heroes of the Interstellar Armed Forces"
 "item_tournament_medal_hoiaf_top20_name"		"상위 20위 - 성간 군사 동맹의 영웅들"
+"[english]item_tournament_medal_hoiaf_participant_stackable_name"		"Participant Medals - Heroes of the Interstellar Armed Forces"
+"item_tournament_medal_hoiaf_participant_stackable_name"		"참가자 훈장 - 성간 군사 동맹의 영웅들"
+"[english]item_tournament_medal_hoiaf_elite_stackable_name"		"Elite Medals - Heroes of the Interstellar Armed Forces"
+"item_tournament_medal_hoiaf_elite_stackable_name"		"정예 훈장 - 성간 군사 동맹의 영웅들"
+"[english]item_tournament_medal_hoiaf_top20_stackable_name"		"Top 20 Medals - Heroes of the Interstellar Armed Forces"
+"item_tournament_medal_hoiaf_top20_stackable_name"		"상위 20위 훈장 - 성간 군사 동맹의 영웅들"
 "[english]item_tournament_medal_hoiaf_participant_name_short"		"HoIAF Participant"
 "item_tournament_medal_hoiaf_participant_name_short"		"HoIAF 참가자"
 "[english]item_tournament_medal_hoiaf_elite_name_short"		"HoIAF Elite"
 "item_tournament_medal_hoiaf_elite_name_short"		"HoIAF 정예"
 "[english]item_tournament_medal_hoiaf_top20_name_short"		"HoIAF Top 20"
 "item_tournament_medal_hoiaf_top20_name_short"		"HoIAF 상위 20위"
+"[english]item_tournament_medal_hoiaf_participant_stackable_name_short"		"HoIAF Participant Medals"
+"item_tournament_medal_hoiaf_participant_stackable_name_short"		"HoIAF 참가자 훈장"
+"[english]item_tournament_medal_hoiaf_elite_stackable_name_short"		"HoIAF Elite Medals"
+"item_tournament_medal_hoiaf_elite_stackable_name_short"		"HoIAF 정예 훈장"
+"[english]item_tournament_medal_hoiaf_top20_stackable_name_short"		"HoIAF Top 20 Medals"
+"item_tournament_medal_hoiaf_top20_stackable_name_short"		"HoIAF 상위 20위 훈장"
 "[english]item_tournament_medal_hoiaf_participant_description"		"Medal awarded to those who participated in any season of Heroes of the Interstellar Armed Forces."
 "item_tournament_medal_hoiaf_participant_description"		"성간 군사 동맹의 영웅들 시즌에 참여한 모든 사람들에게 수여되는 훈장."
 "[english]item_tournament_medal_hoiaf_elite_green_description"		"Medal awarded to those who finished a March, April, or May season of Heroes of the Interstellar Armed Forces in the top 100."
@@ -92,6 +107,13 @@
 "item_tournament_medal_hoiaf_top20_yellow_description"		"9, 10, 11월에 진행한 성간 군사 동맹의 영웅들 상위 20위권 내에 진입한 사람들에게 수여되는 훈장."
 "[english]item_tournament_medal_hoiaf_top20_blue_description"		"Medal awarded to those who finished a December, January, or February season of Heroes of the Interstellar Armed Forces in the top 20."
 "item_tournament_medal_hoiaf_top20_blue_description"		"12, 1, 2월에 진행한 성간 군사 동맹의 영웅들 상위 20위권 내에 진입한 사람들에게 수여되는 훈장."
+"[english]item_tournament_medal_hoiaf_participant_stackable_description"		"A stack of medals awarded to a participant in any season of Heroes of the Interstellar Armed Forces. The numbers have been filed off."
+"item_tournament_medal_hoiaf_participant_stackable_description"		"성간 군사 동맹의 영웅들 시즌에 참여한 모든 사람들에게 수여되는 훈장을 한 곳에 정리하였습니다."
+"[english]item_tournament_medal_hoiaf_elite_stackable_description"		"A stack of medals awarded to someone who finished seasons of Heroes of the Interstellar Armed Forces in the top 100. The numbers have been filed off."
+"item_tournament_medal_hoiaf_elite_stackable_description"		"성간 군사 동맹의 영웅들 상위 100위권 내에 진입한 사람들에게 수여되는 훈장을 한 곳에 정리하였습니다."
+"[english]item_tournament_medal_hoiaf_top20_stackable_description"		"A stack of medals awarded to someone who finished seasons of Heroes of the Interstellar Armed Forces in the top 20. The numbers have been filed off."
+"item_tournament_medal_hoiaf_top20_stackable_description"		"성간 군사 동맹의 영웅들 상위 20위권 내에 진입한 사람들에게 수여되는 훈장을 한 곳에 정리하였습니다"
+// Stats are only shown (and stored) on non-stackable tournament medals.
 "[english]item_tournament_medal_hoiaf_summary"		"Finished Season %season% in rank #%rank% with a score of %score%."
 "item_tournament_medal_hoiaf_summary"		"시즌 %season% 에서 %score% 점을 획득하여 #%rank% 달성."
 "[english]item_tournament_medal_hoiaf_stat_alien_kills"		"Aliens Killed"
@@ -155,7 +177,7 @@
 "[english]item_novelty_medal_flush_toilet_name"		"Priority Number One"
 "item_novelty_medal_flush_toilet_name"		"최우선 순위"
 "[english]item_novelty_medal_flush_toilet_description"		"While infested and on fire, found the time to flush a toilet."
-"item_novelty_medal_flush_toilet_description"		"감염되고 불에 타들어가고 있을 때, 변기 물을 내려야 한다는 걸 깨달았습니다."
+"item_novelty_medal_flush_toilet_description"		"감염당하고 불에 타들어가고 있어도, 변기 물을 내려야 한다는 걸 깨달았습니다."
 "[english]item_novelty_medal_flush_toilet_display_type"		"Medal…?"
 "item_novelty_medal_flush_toilet_display_type"		"훈장…?"
 
@@ -167,7 +189,7 @@
 "[english]item_novelty_medal_anacrusis_description"		"It was a [i]Barry[/i] good time. Still [i]barrel[/i]-y know him, though…"
 "item_novelty_medal_anacrusis_description"		"정말 [i]좋은[/i] 시간이었어. 그래도 정말 [i]좋은[/i]진 잘 모르겠지만…"
 "[english]item_novelty_medal_anacrusis_acquisition"		"Complete the Barry Nice to Meet You achievement in The Anacrusis to unlock."
-"item_novelty_medal_anacrusis_acquisition"		"The Anacrusis 에서 Barry Nice to Meet You 과제를 잠금 해제했습니다."
+"item_novelty_medal_anacrusis_acquisition"		"The Anacrusis 에서 Barry Nice to Meet You 도전과제를 잠금 해제했습니다."
 
 "[english]item_achievement_medal_oe_jacob_name"		"Jacob's Rest Veteran"
 "item_achievement_medal_oe_jacob_name"		"야곱의 안식처 참전용사"
@@ -254,6 +276,10 @@
 // we're not eligible for the fest, so this medal is an unofficial participation trophy. ouch.
 "[english]item_event_medal_replayabilityfest2024_flavor"		"We didn't make the cut, but we still had fun."
 "item_event_medal_replayabilityfest2024_flavor"		"비록 페스티벌 대상에서 제외되었지만 우린 여전히 즐기고 있죠."
+"[english]item_event_medal_pvpfest2026_name"		"Steam PvP Fest 2026"
+"item_event_medal_pvpfest2026_name"		"스팀 PvP 축제 2026"
+"[english]item_event_medal_pvpfest2026_description"		"Engaged in a skirmish during Steam PvP Fest 2026."
+"item_event_medal_pvpfest2026_description"		"스팀 PvP 축제 2026 기간 중 교전에 참여했습니다."
 
 "[english]item_event_medal_mapping_2023_name"		"Mapping Competition Participant (2023)"
 "item_event_medal_mapping_2023_name"		"지도제작 대회 참가자 (2023)"
@@ -439,7 +465,7 @@
 "[english]item_strange_device_successful_missions_name"		"Successful Missions"
 "item_strange_device_successful_missions_name"		"성공한 임무"
 "[english]item_strange_device_aliens_killed_name"		"Aliens Killed"
-"item_strange_device_aliens_killed_name"		"외계무리 사살"
+"item_strange_device_aliens_killed_name"		"외계무리 처치 수"
 "[english]item_strange_device_healing_name"		"Healing"
 "item_strange_device_healing_name"		"치료"
 "[english]item_strange_device_fast_hacks_name"		"Fast Hacks"
@@ -450,12 +476,14 @@
 "[english]item_strange_device_allies_extinguished_name"		"Allies Extinguished"
 "item_strange_device_allies_extinguished_name"		"아군 소화"
 "[english]item_strange_device_alien_kill_streak_name"		"Alien Kill Streak"
-"item_strange_device_alien_kill_streak_name"		"외계무리 연속 사살"
+"item_strange_device_alien_kill_streak_name"		"외계무리 연속 처치 수"
 // Alien Kill Streak: 1234 (Best: 5678)
 "[english]item_strange_device_alien_kill_streak_best"		"Best"
 "item_strange_device_alien_kill_streak_best"		"최고"
 "[english]item_strange_device_infestations_cured_name"		"Infestations Cured"
 "item_strange_device_infestations_cured_name"		"감염 치료"
+"[english]item_strange_device_deathmatch_kills_name"		"Deathmatch Kills"
+"item_strange_device_deathmatch_kills_name"		"데스매치 처치 수"
 
 "[english]item_suit_sarge_name"		"Sarge's Suit"
 "item_suit_sarge_name"		"Sarge의 복장"
@@ -608,5 +636,9 @@
 "item_donation_crazymanbos_name"		"기부: Crazymanbos"
 "[english]item_donation_crazymanbos_description"		"Represents a donation to Crazymanbos, contributor to the Swedish translation."
 "item_donation_crazymanbos_description"		"스웨덴어 번역에 기여한 Crazymanbos 에게 기부합니다."
+"[english]item_donation_moddedmarionette_name"		"Donor: ModdedMarionette"
+"item_donation_moddedmarionette_name"		"기부: ModdedMarionette"
+"[english]item_donation_moddedmarionette_description"		"Represents a donation to ModdedMarionette, programmer and contributor to the Simplified Chinese translation."
+"item_donation_moddedmarionette_description"		"프로그래머이자 중국어 간체 번역에 기여한 ModdedMarionette 에게 기부합니다."
 }
 }

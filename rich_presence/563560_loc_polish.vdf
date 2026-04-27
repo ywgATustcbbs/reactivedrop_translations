@@ -33,6 +33,13 @@
 		"#official_challenge_riflemod_classic"	"Rifle Mod"
 		"#official_challenge_rd_first_person"	"First Person"
 		"#official_challenge_rd_third_person"	"Third Person"
+		"#official_challenge_asw_infection"	"Infection"
+		"#official_challenge_asw_infection_fp"	"Infection First Person"
+		"#official_challenge_asw_infection_tp"	"Infection Third Person"
+		"#official_challenge_asw_infectionclassic"	"Infection Classic"
+		"#official_challenge_asw_infectionclassic_fp"	"Infection Classic First Person"
+		"#official_challenge_asw_infectionclassic_tp"	"Infection Classic Third Person"
+		"#official_challenge_traitors"	"Traitors!(Werewolf-like Mode)"
 
 		"#official_mission_dm_desert"	"DM Desert"
 		"#official_mission_dm_deima"	"DM Deima Surface Bridge"
@@ -114,7 +121,9 @@
 		"#official_mission_rd-bonus_mission6"	"High Tension + Crucial Point"
 		"#official_mission_rd-bonus_mission7"	"Power Plant"
 		"#official_mission_rd-bonus10_sewrev"	"Reversed Sewer Junction B5"
+		"#official_mission_rd-bonus11_synrev"	"Reversed SynTek Residential"
 		"#official_mission_rd-bonus12_rydrev"	"Reversed Rydberg Reactor"
+		"#official_mission_rd-bonus13_deimrev"	"Reversed Deima Surface Bridge"
 		"#official_mission_rd-bonus14_cargrev"	"Reversed Cargo Elevator"
 		"#official_mission_rd-bonus15_landrev"	"Reversed Landing Bay"
 	}

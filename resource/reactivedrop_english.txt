@@ -1773,7 +1773,7 @@
 "ASW_PROTECT_TECH_NAME"	"Protect the Tech"
 "ASW_TECH_SURVIVES_NAME"	"Technician Secured"
 "ASW_STUN_GRENADE_NAME"	"Electro-Stunned"
-"ASW_WELD_DOOR_NAME"	"Seal of Quality" 
+"ASW_WELD_DOOR_NAME"	"Seal of Quality"
 "ASW_DODGE_RANGER_SHOT_NAME"	"Under the Gun"
 "ASW_BOOMER_KILL_EARLY_NAME"	"The Quick and the Dead"
 "ASW_FREEZE_GRENADE_NAME"	"Stay Frosty"
@@ -2217,7 +2217,7 @@
 "rd_leave_feedback"	"Feedback"
 "rd_str_schedule_event"	"Schedule a Game Event"
 "rd_schedule_event_information"	"Join this steam group and schedule a game event \n"
-"rd_str_change_team"	"CHANGE TEAM" 
+"rd_str_change_team"	"CHANGE TEAM"
 "rd_str_team"	"Team: %s1"
 "rd_str_press_jump_to_respawn"	"Respawn"
 "rd_str_respawning_in"	"Respawn available in %s1..."
@@ -2256,9 +2256,9 @@
 "rd_challenge_disabled"	"Challenge disabled"
 "rd_challenge_enabled"	"Challenge enabled: %s1"
 "asw_weapon_devastator"	"Devastator"
-"asw_weaponl_devastator"	"IAF HAS42 Devastator" 
+"asw_weaponl_devastator"	"IAF HAS42 Devastator"
 "asw_wdesc_devastator"	"The IAF HAS42 Devastator is a fully automatic close range heavy assault shotgun. IAF standard ammunition loadout provides for 12-gauge rounds. Special Weapons training is required. Its devastating power makes it ideal for taking out large groups of hostile targets in close range."
-"asw_weapon_devastator_attributes"	"High Damage, Close Range" 
+"asw_weapon_devastator_attributes"	"High Damage, Close Range"
 "asw_weapon_combat_rifle"	"Combat Rifle"
 "asw_weaponl_combat_rifle"	"22A4-2 Combat Rifle"
 "asw_wdesc_combat_rifle"	"The 22A4-2 Combat Rifle is similar to the 22A3-1 Assault Rifle but instead of the underslung grenade launcher it is equipped by an underslung shotgun attachment for situations when enemy is way too close to you to use the grenade launcher. When multiple foes are close to you use the high powered shotgun blast to take them down. High damage and wide spread does the trick."
@@ -2861,7 +2861,7 @@
 "rd_so_paragraph_harvester_5"	"That's why I know you're coming for me, Captain. I'm the thorn in your side. The xenomite in your ointment. The kick in your teeth. I'm just going to get worse unless you can pluck me out. Go ahead and try. I'm going to keep spreading your secrets across the galaxy until one of us is dead. So go ahead. Keep picking at me. Keep swatting at that fly. By all means, expose your big, glowing weak point. If we all shoot, we can't miss. We only have to get lucky once."
 // "the thick, choking smoke to the fire with acidic skin" is comparing the xenomites to the harvesters with the English idiom "where there's smoke there's fire", meaning that where there is a hint of something happening (smoke), it could be a sign of a larger problem (fire).
 "rd_so_paragraph_xenomite_0"	"Speaking of big, glowing weak points and obnoxious parasites, I bring you specimen 24'5'14'15, codename XENOMITE. Can't talk about harvesters without talking about their exploding babies. The main reason harvesters are dangerous are because of these little monsters. The thick, choking smoke to the fire with acidic skin. That's the thing about being trapped in a burning building. You'll choke to death with burning lungs long before your skin sears. The foot soldiers and hired thugs will leave you battered and broken long before those gilded hands even have to try to wring your throat. I have to assume that's why you keep sending your grunts after me, General. Can't put in an honest day's work and risk me fighting back, right?"
-"rd_so_paragraph_xenomite_1"	"If you are one of those grunts, I want you to know that I have nothing against you. If anything, I have more in common with you than you have with your boss. We're both being exploited and forced to do violence against people who don't deserve it. How may other whistleblowers have you scared into silence? How many people have you shot for doing the right thing? I can give you a list of people who do deserve it, but they're all names you've heard before. Your boss is having you kill me instead of the exploding bugs with asses full of acid. What does that say about his priorities? He's burning your house down and making you shoot the firefighters."
+"rd_so_paragraph_xenomite_1"	"If you are one of those grunts, I want you to know that I have nothing against you. If anything, I have more in common with you than you have with your boss. We're both being exploited and forced to do violence against people who don't deserve it. How many other whistleblowers have you scared into silence? How many people have you shot for doing the right thing? I can give you a list of people who do deserve it, but they're all names you've heard before. Your boss is having you kill me instead of the exploding bugs with asses full of acid. What does that say about his priorities? He's burning your house down and making you shoot the firefighters."
 // this stuff about the sand calls back to the Harvester entry, and also to the idea that one's lifespan is often likened to sand flowing through an hourglass (such that you die when the hourglass runs out)
 "rd_so_paragraph_xenomite_2"	"The sand of our lives ruthlessly slips through our fingers with every passing moment. We cannot stem the tide. The best we can do is make the most of the time we have and, perhaps, do our best to keep the flow running a little longer. For example, if someone's genetically engineering a scourge of skin-melting bugs designed to overrun the whole damn galaxy, that's going to cut a lot of lives very short. Including your own. Whoever you are, whoever's out there, I don't know how else to say that this is an existential threat to life in this galaxy. Every passing moment brings us closer to the point of no return."
 // "Xenomites of the world, unite!" is a reference to https://en.wikipedia.org/wiki/Workers_of_the_world,_unite!
@@ -3276,15 +3276,13 @@
 "asw_weapon_stun_grenades"	"Stun Grenades"
 // EC = electric charge; also a reference to Amazon EC2, which stands for Elastic Compute Cloud, because these were originally part of the tech-only prototype rifle.
 "asw_weaponl_stun_grenades"	"EC-02 Stun Grenades"
-// TODO
-"asw_wdesc_stun_grenades"	""
+"asw_wdesc_stun_grenades"	"A set of offhand lightweight stun grenades. These grenades deliver a high electric charge which renders the muscle motors of affected targets extremely weak for a short time. Being non-fatal makes them perfect for use in urban environments and against civilian crowds."
+"asw_weapon_stun_grenades_attributes"	"Splash Stun, Negligible Friendly Fire"
 "asw_weapon_incendiary_grenades"	"Incendiary Grenades"
 // NA = napalm; -23 is a reference to gasoline's flashpoint, -23 degrees celsius.
 "asw_weaponl_incendiary_grenades"	"NA-23 Incendiary Grenades"
-// TODO
-"asw_wdesc_incendiary_grenades"	""
-// TODO
-"asw_weapon_incendiary_grenades_attributes"	""
+"asw_wdesc_incendiary_grenades"	"A set of offhand contact based and timed napalm enriched incendiary grenades. Offering a high area of effect damage for indirect fire making them preferred for breach situations and crowd control against large hostile groups, as well as an on the go solution against areas infested with swarm biomass."
+"asw_weapon_incendiary_grenades_attributes"	"Ignites"
 "asw_weapon_speed_burst"	"Speed Burst"
 // EX = exoskeleton; 981 is backwards 1890, the year when Nicholas Yagin invented US440684, (one of) the earliest known powered exoskeletons.
 "asw_weaponl_speed_burst"	"EX981 Speed Burst Module"
@@ -3748,7 +3746,7 @@
 "red5_panel_skip_cutscene"	"Skip Cutscene"
 "red5_voted_skip_yes"	"You have voted to skip the cutscene"
 "red5_voted_skip_no"	"You have not voted to skip the cutscene"
-// context - Voted to Skip: 0/5 
+// context - Voted to Skip: 0/5
 "red5_voted_skip_count"	"Voted to Skip:"
 
 "red6_1_title"	"Escort the Carriage to Outpost Charlie. NOTE: All Sentryguns will be Confiscated"
@@ -4154,8 +4152,10 @@
 "rd_mission_desc_rd-bonus_mission7"	"Bring power online, start the generators and cooling pump."
 "rd_mission_brief_rd-bonus_mission7"	"Get the power on"
 "rd_mission_title_rd-bonus10_sewrev"	"Reversed Sewer Junction B5"
+"rd_mission_title_rd-bonus11_synrev"	"Reversed SynTek Residential"
 "rd_mission_title_rd-bonus12_rydrev"	"Reversed Rydberg Reactor"
 "rd_mission_desc_rd-bonus12_rydrev"		"Gain access to the Reactor Control Room and bring the power offline."
+"rd_mission_title_rd-bonus13_deimrev"	"Reversed Deima Surface Bridge"
 "rd_mission_title_rd-bonus14_cargrev"	"Reversed Cargo Elevator"
 "rd_mission_desc_rd-bonus14_cargrev"	"Proceed up the central Cargo Elevator to the Landing Bay."
 "rd_mission_title_rd-bonus15_landrev"	"Reversed Landing Bay"
@@ -4735,6 +4735,7 @@
 "rd_collection_inventory_loadout"	"Loadout"
 "rd_collection_inventory_crafting_materials"	"Materials"
 "rd_collection_inventory_other"	"Items"
+"rd_collection_inventory_crafting"	"Blueprints"
 "rd_collection_inventory_error_generic"	"Inventory currently unavailable"
 // k_EResultPending
 "rd_collection_inventory_error_22"	"Loading inventory..."
@@ -4758,6 +4759,8 @@
 // %s1 is the style name
 "rd_inventory_verb_style"	"Change Style: %s1"
 "rd_inventory_verb_style_current"	"Current Style: %s1"
+// option is always disabled
+"rd_inventory_verb_style_locked"	"Change Style: %s1 (Locked)"
 // checkbox: force "Assault Rifle" to still appear even if "Strange Assault Rifle" is in the list.
 "rd_inventory_show_basic"	"Show all basic items"
 "rd_inventory_item_action_wait"	"Updating items. Please wait..."
@@ -4766,6 +4769,9 @@
 "rd_inventory_item_action_failed_generic_desc"	"The requested inventory item action failed unexpectedly. (code %s1)"
 // 3 = k_EResultNoConnection
 "rd_inventory_item_action_failed_3_desc"	"The requested inventory item action failed because the connection to Steam was lost."
+// item name is shown as the title of this confirmation screen
+"rd_inventory_delete_confirm_desc"		"Are you sure you want to permanently destroy this item? It cannot be recovered."
+"rd_inventory_delete_stack_confirm_desc"		"Are you sure you want to permanently destroy these %s1 items? They cannot be recovered."
 "rd_loadout_new"	"Create Loadout"
 "rd_loadout_save"	"Copy From Current"
 "rd_loadout_load"	"Copy To Current"
@@ -5338,7 +5344,7 @@
 "asw_infection_newRound"	"New round begins..."
 "asw_infection_infected"	"%s1 was infected by %s2."
 "asw_infection_lastStand_on"	"Last Stand mode is now available to the Humans."
-"asw_infection_lastStand_key"	"Hold Melee key to activate Last Stand mode"
+"asw_infection_lastStand_key"	"Hold Melee + Crouch keys to activate Last Stand mode"
 "asw_infection_lastStand_used"	"%s1 activated Last Stand mode."
 "asw_infection_lastStand_timeAdd"	"+60 seconds to the match timer."
 "asw_infection_win_human"	"Humans win!"
@@ -5581,5 +5587,210 @@
 "rd_crafting_material_rarity_tech"	"Tech"
 "rd_crafting_material_rarity_salvaged"	"Salvaged"
 "rd_crafting_material_rarity_refined"	"Refined"
+
+"rd_crafting_select_recipe"	"Select a blueprint to use"
+"rd_crafting_submit_missing_ingredients"	"You do not have the items required to make this blueprint"
+"rd_crafting_submit_unselected_ingredients"	"Select items above to fill the blueprint"
+"rd_crafting_submit_ready"	"Craft!"
+"rd_crafting_submit_in_progress"	"Crafting..."
+"rd_crafting_required_items"	"Items:"
+"rd_crafting_output_items"	"This blueprint will create:"
+"rd_crafting_recipe_hoiaf_create_stack_participant"	"Stack HoIAF Participant medals"
+"rd_crafting_recipe_hoiaf_add_to_stack_participant"	"Add HoIAF Participant medal to stack"
+"rd_crafting_recipe_hoiaf_create_stack_elite"	"Stack HoIAF Elite medals"
+"rd_crafting_recipe_hoiaf_add_to_stack_elite"	"Add HoIAF Elite medal to stack"
+"rd_crafting_recipe_hoiaf_create_stack_top20"	"Stack HoIAF Top 20 medals"
+"rd_crafting_recipe_hoiaf_add_to_stack_top20"	"Add HoIAF Top 20 medal to stack"
+"rd_crafting_recipe_hoiaf_stack_flavor"	"The boffins down at IAF headquarters say we can't make these medals stack on top of each other because they have unique numbers and statistics on them. Something about \"data storage formats\". Bunch of nonsense as far as I'm concerned. Anyway, we found a solution for that particular problem. Hit the numbers with a hammer until you can't read them anymore! That'll show those scientists."
+"rd_crafting_recipe_hoiaf_stack_warning"	"This process will permanently remove the season number, score, and other statistics from the chosen medal. Your stats will remain visible on the seasonal leaderboards."
+
+//These are challenge name and description in add-on info file and show up in challenge selection menu.
+"challenge_traitors_name"		"Traitors!(Werewolf-like Mode)"
+"challenge_traitors_description"		"TRAITOR Team has to KILL IAF Team. While IAF Team has to COMPLETE the mission."
+
+"challenge_traitors_iaf_win"		"IAF team wins!"
+"challenge_traitors_traitor_win"		"TRAITOR team wins!"
+"challenge_traitors_no_winner"		"All marines have died... There is no winner."
+"challenge_traitors_traitor_surrender"		"Over 2/3 of TRAITOR Team players agree to surrender."
+
+//----instruction------
+"challenge_traitors_not_enough_players"		"You need at least 3 players to play."
+"challenge_traitors_game_instruction0"		"This is an AmongUs-like / Werewolf-like game mode. There will be Traitors (bad marines) who want to kill all IAF marines (good marines) and sabotage the mission. Roles are randomly choosen. There are some special roles which have powerful skills. It is recommended to have 5 or more players to unlock more special roles."
+"challenge_traitors_game_instruction1"		"IAF team OBJECTIVE: [Complete the mission]"
+"challenge_traitors_game_instruction2"		"TRAITOR team OBJECTIVE: [Kill IAF team] or [Mission Failed, but traitor alive]"
+"challenge_traitors_game_instruction3"		"By taking a TRAITOR BOT in-game, you are forced to join the TRAITOR team. There is no way back from being a traitor."
+"challenge_traitors_game_instruction4"		"--- A traitor can send secret messages beginning with \"/\" to teammates."
+//IME: Input Method Editors
+"challenge_traitors_game_instruction5"		"--- Keep an eye on your IME status, or your secret message might be sent to the public."
+"challenge_traitors_game_instruction6"		"--- Traitor Team can send \"/gg\" to initiate a team surrender vote. YES votes > 2/3 means IAF Team wins."
+"challenge_traitors_game_instruction7"		""
+"challenge_traitors_game_instruction8"		"--- You can use console command: bind \"o\" \"say /\" to fast open or close menu. Replace \"o\" with any key you like."
+
+//--------team---------
+"challenge_traitors_team_name_iaf"		"IAF Team"
+"challenge_traitors_team_name_traitor"		"TRAITOR Team"
+
+//----team objective---
+"challenge_traitors_team_objective_long_iaf"		"COMPLETE the mission"
+"challenge_traitors_team_objective_short_iaf"		"COMPLETE the mission"
+"challenge_traitors_team_objective_long_traitor"		"KILL the IAF team with at least 1 traitor alive"
+"challenge_traitors_team_objective_short_traitor"		"KILL the IAF team"
+
+//------chat msg-------
+"challenge_traitors_chat_on_game_start"		"You are %article% %role% in %team%! Your team objective is to %team_objective_long%."
+"challenge_traitors_chat_on_bot_taken"		"You have taken %article% %role% in %team%! Your team objective is to %team_objective_long%."
+"challenge_traitors_chat_skill_instruction"		"Type \"/\" in chat to SHOW / HIDE menu."
+
+//------hud msg--------
+//Please keep HUD messages as short as possible.
+"challenge_traitors_hud_on_game_start"		"You are %article% %role%! %team_objective_short% to win."
+"challenge_traitors_hud_on_bot_taken"		"You have taken %article% %role% bot! %team_objective_short% to win."
+"challenge_traitors_hud_skill_instruction"		"Type \"/\" in chat to SHOW / HIDE menu. See chat message for details."
+//These will display on traitors' HUD and only traitors can see them. Please keep HUD messages short.
+"challenge_traitors_game_instruction_traitor1"		"You can send secret messages beginning with \"/\" to teammates."
+"challenge_traitors_game_instruction_traitor2"		"You can send \"/gg\" to surrender."
+"challenge_traitors_game_instruction_traitor3"		"Someone wants to surrender, type \"/gg\" for YES."
+
+//--------misc---------
+"challenge_traitors_traitor_list"		"TRAITOR name list:"
+"challenge_traitors_traitor_player_unavailable"		"Corrupted Records"
+//This is used to mark a message that only TRAITOR team players can see. For example:
+//If a traitor <Player A> says something starting with a "/", like"/let's kill Player B first.". Only and all TRAITOR team players will receive the secret message"[TRAITOR]Player A:  /let's kill Player B first.".
+"challenge_traitors_traitor_message_mark"		"[TRAITOR]"
+"challenge_traitors_marine_silenced_notify"		"You are silenced by someone and lose your skill."
+//Notify All: <PlayerName> is a Deserter!
+"challenge_traitors_deserter_flee_notify1"		" is a Deserter in IAF Team!"
+"challenge_traitors_traitor_list_changed"		"ATTENTION! A non-traitor player has taken a traitor bot, the traitor name list has changed!"
+"challenge_traitors_iaf_bot_killed_notify"		"Executed for betrayal!"
+"challenge_traitors_roles_in_this_round"		"Special Roles in this round:"
+"challenge_traitors_role_abeted"		"(Abeted)"
+"challenge_traitors_drop_weapon_notify"		"For game balance considerations, you can't take the two weapons at the same time."
+
+//------role/vgui------
+
+//iaf
+"challenge_traitors_role_article_iaf"		"an"
+"challenge_traitors_role_name_iaf"		"IAF marine"
+"challenge_traitors_role_chat_role_description_iaf"		"You don't have any special skill. Try your best to survive. Good luck!"
+"challenge_traitors_role_chat_skill_description_iaf"		""
+"challenge_traitors_role_hud_role_description_iaf"		"Try your best to survive. Good luck!"
+
+//scanner
+"challenge_traitors_role_article_scanner"		"an"
+"challenge_traitors_role_name_scanner"		"Alien Expert"
+"challenge_traitors_role_chat_role_description_scanner"		"You have a bio-scanner that can tell you who is the traitor."
+//Note the SPACE before the placeholder. This sentence is right after the role_description_* sentence. Remove the SPACE if you dont need one between two sentences in your language.
+"challenge_traitors_role_chat_skill_description_scanner"		" %chat_skill_instruction%"
+"challenge_traitors_role_hud_role_description_scanner"		"%hud_skill_instruction%"
+//VGui menu string. These strings will form two sentences:
+//If the player can perform a scan, it shows: <menu1> + <menu4>. e.g., "Scan Nearby Targets!(Red : Traitor | Green : IAF)"
+//if the scanner is cooling down, it shows: <menu2> + <remaining time> + <menu3> + <menu4>.  e.g., "Scan will be ready in 20s. (Red : Traitor | Green : IAF)"
+"challenge_traitors_vgui_menu_scanner_1"		"Scan Nearby Targets!"
+"challenge_traitors_vgui_menu_scanner_2"		"Scan will be ready in "
+"challenge_traitors_vgui_menu_scanner_3"		"s."
+"challenge_traitors_vgui_menu_scanner_4"		"(Red: Traitor | Green: IAF | Blue: UDP packet has lost.)"
+"challenge_traitors_role_chat_random_scan"		"For game balance considerations, the first several scans are randomized. The target should be within a certain range."
+
+//biochemist
+"challenge_traitors_role_article_biochemist"		"a"
+"challenge_traitors_role_name_biochemist"		"Biochemist"
+"challenge_traitors_role_chat_role_description_biochemist"		"You have two biochemical agents: one adds bonus HP to an ally, cures his infection and extinguishes fire (except self), another poisons a target (including self)."
+"challenge_traitors_role_chat_skill_description_biochemist"		" %chat_skill_instruction%"
+"challenge_traitors_role_hud_role_description_biochemist"		"%hud_skill_instruction%"
+"challenge_traitors_vgui_menu_biochemist_1"		"LEFT Click to ADD HP"
+"challenge_traitors_vgui_menu_biochemist_2"		"RIGHT Click to KILL"
+"challenge_traitors_vgui_menu_biochemist_3"		"Skill will be ready in "
+"challenge_traitors_vgui_menu_biochemist_4"		"s."
+"challenge_traitors_vgui_menu_biochemist_5"		"You have already used your skill.(Blue: UDP packet has lost.)"
+
+//iaf_leader
+"challenge_traitors_role_article_iaf_leader"		"a"
+"challenge_traitors_role_name_iaf_leader"		"Colonel"
+"challenge_traitors_role_chat_role_description_iaf_leader"		"You have hidden bonus HP."
+"challenge_traitors_role_chat_skill_description_iaf_leader"		""
+"challenge_traitors_role_hud_role_description_iaf_leader"		"You have hidden bonus HP."
+
+//shield
+"challenge_traitors_role_article_shield"		"a"
+"challenge_traitors_role_name_shield"		"Mechanic"
+"challenge_traitors_role_chat_role_description_shield"		"You own a damage-reducing mecha, but cannot use it due to oversized toolbox. You can give it to a trusted ally."
+"challenge_traitors_role_chat_skill_description_shield"		" %chat_skill_instruction%"
+"challenge_traitors_role_hud_role_description_shield"		"%hud_skill_instruction%"
+"challenge_traitors_vgui_menu_shield_1"		"LEFT Click to give the mecha to the player"
+"challenge_traitors_vgui_menu_shield_2"		"Skill will be ready in "
+"challenge_traitors_vgui_menu_shield_3"		"s."
+"challenge_traitors_vgui_menu_shield_4"		"You have already used your skill.(Blue: UDP packet has lost.)"
+
+//sniper
+"challenge_traitors_role_article_sniper"		"a"
+"challenge_traitors_role_name_sniper"		"Sniper"
+"challenge_traitors_role_chat_role_description_sniper"		"Your calmness and exceptional shooting skills enable you to take down the killer when you die."
+"challenge_traitors_role_chat_skill_description_sniper"		""
+"challenge_traitors_role_hud_role_description_sniper"		"You will take down the one who kills you when you die."
+
+//demo
+"challenge_traitors_role_article_demo"		"an"
+"challenge_traitors_role_name_demo"		"Explosive Expert"
+"challenge_traitors_role_chat_role_description_demo"		"You bring many explosives to support your team in killing aliens. You decide to trigger an area explosion upon death, trying to damage potential traitors nearby."
+"challenge_traitors_role_chat_skill_description_demo"		""
+"challenge_traitors_role_hud_role_description_demo"		"You will explode when you die."
+
+//deserter
+"challenge_traitors_role_article_deserter"		"a"
+"challenge_traitors_role_name_deserter"		"Deserter"
+"challenge_traitors_role_chat_role_description_deserter"		"Being a coward, you flee in the battle. You have 30s of invulnerability to flee, followed by 90s damage debuff, then partial damage recovery."
+"challenge_traitors_role_chat_skill_description_deserter"		""
+"challenge_traitors_role_hud_role_description_deserter"		"See instructions in chat."
+
+//traitor
+"challenge_traitors_role_article_traitor"		"a"
+"challenge_traitors_role_name_traitor"		"Traitor"
+"challenge_traitors_role_chat_role_description_traitor"		"You are infected and dominated by aliens. Aliens want you to sabotage the mission. Don't act rashly. There might be someone who can see through your disguise."
+"challenge_traitors_role_chat_skill_description_traitor"		""
+"challenge_traitors_role_hud_role_description_traitor"		"Don't act rashly. Others may see through your disguise."
+
+//traitor_leader
+"challenge_traitors_role_article_traitor_leader"		"a"
+"challenge_traitors_role_name_traitor_leader"		"Traitor Leader"
+"challenge_traitors_role_chat_role_description_traitor_leader"		"You have hidden bonus HP."
+"challenge_traitors_role_chat_skill_description_traitor_leader"		""
+"challenge_traitors_role_hud_role_description_traitor_leader"		"You have hidden bonus HP."
+
+//infector
+"challenge_traitors_role_article_infector"		"a"
+"challenge_traitors_role_name_infector"		"Suborner"
+"challenge_traitors_role_chat_role_description_infector"		"You can convert an IAF member when traitors are outnumbered."
+"challenge_traitors_role_chat_skill_description_infector"		"%chat_skill_instruction%"
+"challenge_traitors_role_hud_role_description_infector"		"%hud_skill_instruction%"
+"challenge_traitors_vgui_menu_infector_1"		"LEFT Click to abet a player"
+"challenge_traitors_vgui_menu_infector_2"		"You can't abet a player right now. See descriptions in chat."
+"challenge_traitors_vgui_menu_infector_3"		"Skill will be ready in "
+"challenge_traitors_vgui_menu_infector_4"		"s."
+"challenge_traitors_vgui_menu_infector_5"		"You have already used your skill.(Blue: UDP packet has lost.)"
+
+//boomer
+"challenge_traitors_role_article_boomer"		"a"
+"challenge_traitors_role_name_boomer"		"Suicide Boomer"
+"challenge_traitors_role_chat_role_description_boomer"		"You can perform a suicide attack. Detonates an area bomb (with or without alarm) after several seconds delay. Type \"/\" in chat to ACTIVATE the bomb."
+"challenge_traitors_role_chat_skill_description_boomer"		""
+"challenge_traitors_role_hud_role_description_boomer"		"Type \"/\" in chat to ACTIVATE the bomb."
+
+//silencer
+"challenge_traitors_role_article_silencer"		"a"
+"challenge_traitors_role_name_silencer"		"Silencer"
+"challenge_traitors_role_chat_role_description_silencer"		"You have a very special bio-force field that can disable target's special ability."
+"challenge_traitors_role_chat_skill_description_silencer"		" %chat_skill_instruction%"
+"challenge_traitors_role_hud_role_description_silencer"		"%hud_skill_instruction%"
+"challenge_traitors_vgui_menu_silencer_1"		"LEFT Click to suppress a player's special skill."
+"challenge_traitors_vgui_menu_silencer_2"		"Skill will be ready in "
+"challenge_traitors_vgui_menu_silencer_3"		"s."
+"challenge_traitors_vgui_menu_silencer_4"		"You have already used your skill.(Blue: UDP packet has lost.)"
+
+//mimic
+"challenge_traitors_role_article_mimic"		"a"
+"challenge_traitors_role_name_mimic"		"Mimic"
+"challenge_traitors_role_chat_role_description_mimic"		"Your quantum holographic cloak makes Alien Expert's scanner registers you as an IAF marine. Maintain disguise until critical moment."
+"challenge_traitors_role_chat_skill_description_mimic"		""
+"challenge_traitors_role_hud_role_description_mimic"		"Alien Expert's scanner sees you as an IAF marine"
 }
 }
