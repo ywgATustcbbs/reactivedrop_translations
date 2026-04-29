@@ -1902,7 +1902,7 @@
 "[english]asw_started_kick_vote"		"%s1 wants %s2 to be kicked."
 "asw_started_kick_vote"		"Hráč %s1 chce, aby hráč %s2 byl vykopnut."
 "[english]asw_started_leader_vote"		"%s1 wants %s2 to be leader."
-"asw_started_leader_vote"		"%s1 chce, aby %s2 byl vedoucí."
+"asw_started_leader_vote"		"Hráč %s1 chce, aby se hráč %s2 stal vůdcem."
 		"[english]asw_trace_player_enable"		"Enable player tracing in game"
 		"asw_trace_player_enable"		"Enable player tracing in game"
 		"[english]asw_trace_me_msg_to_self"		"You have suggested other players to trace your marine in game."
