@@ -10,7 +10,7 @@
 | [French](#french-français) | ✔️ | 67 | ✔️ | 2529 | 285 | ✔️ | 365 | 111 |
 | [German](#german-deutsch) | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
 | [Hungarian](#non-curated-languages) | 56 | 138 | 43 | 3384 | 286 | 231 | 975 | 147 |
-| [Indonesian](#indonesian-indonesia) | 575 | 2004 | 635 | 4350 | 289 | 236 | 972 | 145 |
+| [Indonesian](#indonesian-indonesia) | 575 | 2004 | 635 | 4350 | 289 | 236 | 972 | 144 |
 | [Italian](#italian-italiano) | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
 | [Japanese](#japanese-日本語) | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | 35 | ✔️ |
 | [Korean](#koreana-한국어) | ✔️ | ✔️ | ✔️ | 30 | ✔️ | ✔️ | ✔️ | ✔️ |
@@ -544,10 +544,6 @@
 - [workshop_tags_indonesian.json](community/workshop/workshop_tags_english.json) is missing.
 - [content_warning_563560_indonesian.txt](store_page/content_warning_563560_english.txt) is missing.
 - [storepage_81731_indonesian.json](store_page/storepage_81731_english.json) is missing.
-
-### Upcoming Release Notes
-
-- [20260420_indonesian.xml](release_notes/20260420_english.xml) is missing.
 
 ### Credits
 
