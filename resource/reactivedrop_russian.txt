@@ -8951,8 +8951,8 @@
 "rd_collection_inventory_other"		"Предметы"
 "[english]rd_collection_inventory_crafting"		"Blueprints"
 "rd_collection_inventory_crafting"		"Чертежи"
-		"[english]rd_collection_inventory_crafting_research"		"Anomalous Materials Research (Limited Time Event)"
-		"rd_collection_inventory_crafting_research"		"Anomalous Materials Research (Limited Time Event)"
+"[english]rd_collection_inventory_crafting_research"		"Anomalous Materials Research (Limited Time Event)"
+"rd_collection_inventory_crafting_research"		"Исследование аномальных материалов (Ограниченное по времени событие)"
 "[english]rd_collection_inventory_error_generic"		"Inventory currently unavailable"
 "rd_collection_inventory_error_generic"		"Инвентарь сейчас недоступен"
 // k_EResultPending
@@ -9222,12 +9222,12 @@
 "rd_main_menu_tip_workshop"		"Созданные сообществом проекты, код и иллюстрации Alien Swarm: Reactive Drop.\nВ этом меню вы можете опубликовать созданные вами дополнения в мастерской Steam\nи управлять дополнениями, на которые вы подписаны."
 "[english]rd_main_menu_tip_inventory_title"		"Manage Inventory"
 "rd_main_menu_tip_inventory_title"		"Управление инвентарём"
-		"[english]rd_main_menu_tip_inventory"		"Storage for your medals, anomalous materials,\nand strange weapons."
-		"rd_main_menu_tip_inventory"		"Storage for your medals, anomalous materials,\nand strange weapons."
-		"[english]rd_main_menu_tip_inventory_2027"		"Storage for your medals, anomalous materials,\nand strange weapons.\n\nThe Office of Consensus Maintenance is collecting\nanomalous materials. Contribute to help unlock\npermanent community-wide crafting blueprints."
-		"rd_main_menu_tip_inventory_2027"		"Storage for your medals, anomalous materials,\nand strange weapons.\n\nThe Office of Consensus Maintenance is collecting\nanomalous materials. Contribute to help unlock\npermanent community-wide crafting blueprints."
-		"[english]rd_main_menu_tip_inventory_title_2027"		"Inventory & Research"
-		"rd_main_menu_tip_inventory_title_2027"		"Inventory & Research"
+"[english]rd_main_menu_tip_inventory"		"Storage for your medals, anomalous materials,\nand strange weapons."
+"rd_main_menu_tip_inventory"		"Хранилище для ваших медалей, аномальных материалов,\nи «Странных оружий»."
+"[english]rd_main_menu_tip_inventory_2027"		"Storage for your medals, anomalous materials,\nand strange weapons.\n\nThe Office of Consensus Maintenance is collecting\nanomalous materials. Contribute to help unlock\npermanent community-wide crafting blueprints."
+"rd_main_menu_tip_inventory_2027"		"Хранилище для ваших медалей, аномальных материалов,\nи «Странных оружий».\n\n«Проект по аномальным материалам» собирает\nаномальные материалы. Внесите свой вклад в разблокировку\nпостоянных чертежей для крафта, доступные всему сообществу."
+"[english]rd_main_menu_tip_inventory_title_2027"		"Inventory & Research"
+"rd_main_menu_tip_inventory_title_2027"		"Инвентарь и Исследования"
 "[english]rd_main_menu_tip_quit_title"		"Quit"
 "rd_main_menu_tip_quit_title"		"Выход"
 "[english]rd_main_menu_tip_quit"		"Press this button when you are finished\nplaying Alien Swarm: Reactive Drop."
@@ -10507,6 +10507,21 @@
 "rd_crafting_required_items"		"Предметы:"
 "[english]rd_crafting_output_items"		"This blueprint will create:"
 "rd_crafting_output_items"		"Этот чертеж создаст:"
+
+		"[english]rd_crafting_confirm_title"		"Construct this blueprint?"
+		"rd_crafting_confirm_title"		"Construct this blueprint?"
+		"[english]rd_crafting_confirm_blueprint"		"Building \"%s1\" will consume the following resources:"
+		"rd_crafting_confirm_blueprint"		"Building \"%s1\" will consume the following resources:"
+		// %s1 is the quantity (a number)
+		// %s2 is the item name
+		// %s3 is the disambiguator (like "Season 42" on a HoIAF medal)
+		"[english]rd_crafting_confirm_ingredient"		"%s1× %s2"
+		"rd_crafting_confirm_ingredient"		"%s1× %s2"
+		"[english]rd_crafting_confirm_ingredient_disambiguator"		"%s1× %s2 (%s3)"
+		"rd_crafting_confirm_ingredient_disambiguator"		"%s1× %s2 (%s3)"
+		"[english]rd_crafting_confirm_ending"		"This process cannot be reversed."
+		"rd_crafting_confirm_ending"		"This process cannot be reversed."
+
 "[english]rd_crafting_recipe_hoiaf_create_stack_participant"		"Stack HoIAF Participant medals"
 "rd_crafting_recipe_hoiaf_create_stack_participant"		"Набор Медалей Участника ГМВС"
 "[english]rd_crafting_recipe_hoiaf_add_to_stack_participant"		"Add HoIAF Participant medal to stack"
@@ -10523,6 +10538,15 @@
 "rd_crafting_recipe_hoiaf_stack_flavor"		"Ученые в штаб-квартире МВС говорят, что мы не можем складывать эти медали вместе, потому-что на них есть уникальные номера и статистика. Что-то о \"data storage formats\". Полная чушь, насколько я понимаю. В любом случае, мы нашли решение этой конкретной проблемы. Бейте по цифрам молотком, пока они станут не читаемыми! Покажем этим ученым."
 "[english]rd_crafting_recipe_hoiaf_stack_warning"		"This process will permanently remove the season number, score, and other statistics from the chosen medal. Your stats will remain visible on the seasonal leaderboards."
 "rd_crafting_recipe_hoiaf_stack_warning"		"Этот процесс навсегда удалит номер сезона, счет и другие статистические данные из выбранной медали. Ваша статистика останется видимой в сезонных таблицах лидеров."
+
+		"[english]rd_crafting_recipe_refinement_wires"		"Sort Wires"
+		"rd_crafting_recipe_refinement_wires"		"Sort Wires"
+"[english]rd_crafting_recipe_refinement_wires_flavor"		""
+"rd_crafting_recipe_refinement_wires_flavor"		""
+		"[english]rd_crafting_recipe_refinement_carbon"		"Refine Carbon Fiber"
+		"rd_crafting_recipe_refinement_carbon"		"Refine Carbon Fiber"
+"[english]rd_crafting_recipe_refinement_carbon_flavor"		""
+"rd_crafting_recipe_refinement_carbon_flavor"		""
 
 //These are challenge name and description in add-on info file and show up in challenge selection menu.
 "[english]challenge_traitors_name"		"Traitors!(Werewolf-like Mode)"
