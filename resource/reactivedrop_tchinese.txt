@@ -10506,6 +10506,21 @@
 "rd_crafting_required_items"		"道具:"
 "[english]rd_crafting_output_items"		"This blueprint will create:"
 "rd_crafting_output_items"		"藍圖將會生成:"
+
+		"[english]rd_crafting_confirm_title"		"Construct this blueprint?"
+		"rd_crafting_confirm_title"		"Construct this blueprint?"
+		"[english]rd_crafting_confirm_blueprint"		"Building \"%s1\" will consume the following resources:"
+		"rd_crafting_confirm_blueprint"		"Building \"%s1\" will consume the following resources:"
+		// %s1 is the quantity (a number)
+		// %s2 is the item name
+		// %s3 is the disambiguator (like "Season 42" on a HoIAF medal)
+		"[english]rd_crafting_confirm_ingredient"		"%s1× %s2"
+		"rd_crafting_confirm_ingredient"		"%s1× %s2"
+		"[english]rd_crafting_confirm_ingredient_disambiguator"		"%s1× %s2 (%s3)"
+		"rd_crafting_confirm_ingredient_disambiguator"		"%s1× %s2 (%s3)"
+		"[english]rd_crafting_confirm_ending"		"This process cannot be reversed."
+		"rd_crafting_confirm_ending"		"This process cannot be reversed."
+
 "[english]rd_crafting_recipe_hoiaf_create_stack_participant"		"Stack HoIAF Participant medals"
 "rd_crafting_recipe_hoiaf_create_stack_participant"		"一堆星際英雄 參加者勳章"
 "[english]rd_crafting_recipe_hoiaf_add_to_stack_participant"		"Add HoIAF Participant medal to stack"
@@ -10522,6 +10537,15 @@
 "rd_crafting_recipe_hoiaf_stack_flavor"		"那些IAF總部的科學家們說我們不能把這些勳章堆疊在一起，因為他們有個別的數字和統計資料。 甚麼 \"資料儲存分類\"有的沒的. 在我聽來就是一串胡說八道。 總之，我們找到解決那問題的方法了。 那就是把數字用槌子敲到你沒辦法閱讀為止!就看那些傢伙們要怎麼反駁。"
 "[english]rd_crafting_recipe_hoiaf_stack_warning"		"This process will permanently remove the season number, score, and other statistics from the chosen medal. Your stats will remain visible on the seasonal leaderboards."
 "rd_crafting_recipe_hoiaf_stack_warning"		"此行為將會永久移除所選勳章的賽季數字，分數，和其他數據。你的數據將會繼續保留在賽季排行榜上。"
+
+		"[english]rd_crafting_recipe_refinement_wires"		"Sort Wires"
+		"rd_crafting_recipe_refinement_wires"		"Sort Wires"
+"[english]rd_crafting_recipe_refinement_wires_flavor"		""
+"rd_crafting_recipe_refinement_wires_flavor"		""
+		"[english]rd_crafting_recipe_refinement_carbon"		"Refine Carbon Fiber"
+		"rd_crafting_recipe_refinement_carbon"		"Refine Carbon Fiber"
+"[english]rd_crafting_recipe_refinement_carbon_flavor"		""
+"rd_crafting_recipe_refinement_carbon_flavor"		""
 
 //These are challenge name and description in add-on info file and show up in challenge selection menu.
 "[english]challenge_traitors_name"		"Traitors!(Werewolf-like Mode)"
